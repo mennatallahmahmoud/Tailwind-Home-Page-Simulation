@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .ctaBtn {
+        @apply bg-blue-800 text-white font-semibold;
+    }
+    .iconBtnEnd {
+        @apply flex items-end;
+    }
+    .iconBtnCenter {
+        @apply flex items-center;
+    }
+    .itemsStart {
+        @apply flex items-start;
+    }
+    .header {
+        @apply mx-auto text-center;
+    }
+    .navLi {
+        @apply text-slate-600 cursor-pointer;
+    }
+    .pricingSVG {
+        @apply w-6 text-blue-800;
+    }
+    .servicesSVG {
+        @apply w-20 bg-blue-800 text-white p-1.5 rounded-md me-3;
+    }
+    .pricingPara {
+        @apply text-slate-700 ms-3;
+    }
+    .servicesDiv {
+        @apply flex flex-col;
+    }
+    .servicesPara1 {
+        @apply text-slate-700 ms-3 mb-3.5 font-bold;
+    }
+    .servicesPara2 {
+        @apply text-slate-500 ms-3;
+    }
+    .footerSpan {
+        @apply block text-2xl font-bold;
+    }
+    .footerPara {
+        @apply text-slate-50  font-semibold;
+    }
+    .labelStyle {
+        @apply block text-sm font-medium leading-6 text-gray-900 dark:text-white;
+    }
+    .inputStyle {
+        @apply block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6;
+    }
+    .dark {
+        @apply bg-black text-white;
+    }
+}
+
+/* 
+ flex items-center  flex-col md:flex-row md:items-end basis-24
+ text-blue-800 flex items-end md:inline-flex justify-center
+ flex items-end p-3 rounded mx-auto md:mx-0
+flex items-center  flex-row md:items-end
+*/

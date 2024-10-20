@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div class="container mx-auto px-4 ">
+        <header>
+            <nav class="flex justify-between mt-5 items-center">
+                <div class="image w-10">
+                    <img src="../imgs/mark (1).svg" alt="">
+                </div>
+                <ul style="font-size: 13px;" class="flex justify-around basis-96 font-semibold text-center">
+                    <li class="navLi dark:text-white">Product</li>
+                    <li class="navLi dark:text-white">Features</li>
+                    <li class="navLi dark:text-white">Marketplace</li>
+                    <li class="navLi dark:text-white">Company</li>
+                </ul>
+                <div class="cta iconBtnCenter  flex-col md:flex-row md:items-end basis-24">
+                    <a href="form.html" target="_blank" class="dark:text-white text-slate-600 me-1 font-semibold cursor-pointer">Log in</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                </div>
+            </nav>
+        </header>
+        <button id="dark-mode" class="bg-slate-800 text-white mt-10 py-2 px-5 rounded-xl font-semibold block mx-auto text-sm">Turn on/off Dark Mode</button>
+        <section class="landing mt-40  text-center h-screen	">
+            <div class="border-2 border-slate-300 border-solid rounded-2xl md:w-max mx-auto px-3 py-1 ">
+                Announcing our next round of funding. 
+            <div class="read-more-btn text-blue-800 iconBtnEnd md:inline-flex justify-center">
+                <button class=" font-semibold cursor-pointer">Read more</button>
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>
+            </div>
+            </div>
+            <h1 class="text-6xl font-bold text-slate-900 mt-8 max-w-2xl mx-auto dark:text-white">Data to enrich your online business</h1>
+            <p class="mt-6 max-w-2xl mx-auto text-slate-500	leading-loose dark:text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+            <div class="buttons flex align-center mx-auto max-w-2xl justify-center mt-6 flex-col md:flex-row">
+                <button class="ctaBtn me-2 py-3 px-4 rounded-md">Get started</button>
+                <div class="learn-more iconBtnEnd p-3 rounded mx-auto md:mx-0">
+                    <button class="text-slate-900 me-1 font-semibold dark:text-white cursor-pointer">Learn more</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section class="pricing mb-40  mt-60 md:mt-0 ">
+            <div class="header max-w-2xl ">
+                <h2 class="text-4xl font-bold">Simple no-tricks pricing</h2>
+                <p class="mt-6 text-slate-500 leading-loose mb-20 dark:text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>    
+            </div>
+            <div class="plan grid grid-cols-3 border-2 border-slate-300 border-solid rounded-3xl">
+                <div class="col-span-3 md:col-span-2 px-8 py-9">
+                    <div class="mx-auto  border-b-2">
+                        <h2 class="text-3xl font-bold">Lifetime membership</h2>
+                        <p class="mt-5 text-slate-500 leading-relaxed mb-16 dark:text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>    
+                    </div>
+                    <p class="bg-white w-fit pe-5 text-blue-800 font-semibold dark:bg-black" style="margin-top: -15px;">What's included</p>
+                    <div class="options grid grid-cols-1 md:grid-cols-2 mt-8 gap-y-5">
+                        <div class="iconBtnCenter">
+                            <svg class="pricingSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            <p class="pricingPara dark:text-white">Private forum access</p>
+                        </div>
+                        <div class="iconBtnCenter">
+                            <svg class="pricingSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            <p class="pricingPara dark:text-white">Member resources</p>
+                        </div>
+                        <div>
+                        <div class="iconBtnCenter">
+                            <svg class="pricingSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            <p class="pricingPara dark:text-white">Entry to annual conference</p>
+                        </div>
+                        </div>
+                        <div class="iconBtnCenter">
+                            <svg class="pricingSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            <p class="pricingPara dark:text-white">Official member t-shirt</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-span-3 md:col-span-1 text-center px-5 flex flex-col dark:bg-black items-center justify-center bg-slate-100 rounded-2xl mx-2 my-2 py-5">
+                    <p class="font-semibold text-slate-700 mb-6 dark:text-white">Pay once, own it forever</p>
+                    <div class="price mb-8">
+                        <span class="text-slate-900 text-5xl font-bold dark:text-white">$349</span>
+                        <span class="font-semibold text-slate-700 ms-2 dark:text-white">USD</span>
+                    </div>
+                    <button class="ctaBtn text-center w-3/4 rounded px-14 py-1 mb-6">Get access</button>
+                    <p class="text-sm max-w-50 px-5 text-slate-700 dark:text-white">Invoices and receipts available for easy company reimbursement</p>
+                </div>
+            </div>
+        </section>
+        <section class="services mb-40">
+            <p class="w-fit pe-5 text-blue-800 font-semibold mx-auto" style="margin-top: -15px;">Deploy faster</p>
+            <div class="header max-w-5xl ">
+                <h2 class="text-4xl font-bold">Everything you need to deploy your app</h2>
+                <p class="mt-6 text-slate-500 leading-loose dark:text-white mb-20 md:px-44">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>    
+            </div>
+            <div class="service-div max-w-fit md:px-20 mx-auto grid grid-cols-1 md:grid-cols-2 mt-8 gap-y-10 md:gap-x-10">
+                <div class="itemsStart">
+                    <svg class="servicesSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" />
+                    </svg>
+                    <div class="servicesDiv">
+                        <p class="servicesPara1  dark:text-white">Push to deploy</p>
+                        <p class="servicesPara2  dark:text-white">consectetur adipisicing elit. Laborum provident quae nemo dolorum, harum vitae saepe quia dolores suscipit illum sapiente.</p>    
+                    </div>
+                </div>
+                <div class="itemsStart">
+                    <svg class="servicesSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                      </svg>
+                    <div class="servicesDiv">
+                        <p class="servicesPara1  dark:text-white">SSL certificates</p>
+                        <p class="servicesPara2  dark:text-white">consectetur adipisicing elit. Laborum provident quae nemo dolorum, harum vitae saepe quia dolores suscipit illum sapiente.</p>    
+                    </div>
+                </div>
+                <div class="itemsStart">
+                    <svg class="servicesSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                      </svg>
+                    <div class="servicesDiv">
+                        <p class="servicesPara1  dark:text-white">Simple queues</p>
+                        <p class="servicesPara2  dark:text-white">consectetur adipisicing elit. Laborum provident quae nemo dolorum, harum vitae saepe quia dolores suscipit illum sapiente.</p>    
+                    </div>
+                </div>
+                <div class="itemsStart">
+                    <svg class="servicesSVG" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33" />
+                      </svg>
+                    <div class="servicesDiv">
+                        <p class="servicesPara1  dark:text-white">Advanced security</p>
+                        <p class="servicesPara2  dark:text-white">consectetur adipisicing elit. Laborum provident quae nemo dolorum, harum vitae saepe quia dolores suscipit illum sapiente.</p>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="bg-[url('/imgs/footer.jpg')] bg-cover bg-slate-900 text-white">
+        <div class="bg-black p-8 md:p-20 opacity-85">
+            <div>
+                <div class=" md:max-w-2xl">
+                    <h2 class="text-4xl font-bold">Work with us</h2>
+                    <p class="mt-6 text-slate-50 leading-loose mb-10 ">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>    
+                </div>
+                <div class="footer-div md:max-w-3xl  grid grid-cols-1 md:grid-cols-4 gap-y-10 ">
+                    <div class="flex items-center  flex-row md:items-end ">
+                        <p class="mx-2  font-bold">Open roles</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                    </div>
+                    <div class="flex items-center  flex-row md:items-end ">
+                        <p class="mx-2  font-bold">Internship program</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                    </div>
+                    <div class="flex items-center  flex-row md:items-end ">
+                        <p class="mx-2  font-bold">Our values</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                    </div>
+                    <div class="flex items-center  flex-row md:items-end  ">
+                        <p class="mx-2  font-bold">Meet our leadership</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="footer-statistics md:max-w-full mt-14 grid grid-cols-1 md:grid-cols-4 gap-y-10">
+                    <div>
+                        <span class="footerSpan">12</span>
+                        <p class="footerPara">Offices worldwide</p>
+                    </div>
+                    <div>
+                        <span class="footerSpan">300+</span>
+                        <p class="footerPara">Full-time colleagues</p>
+                    </div>
+                    <div>
+                        <span class="footerSpan">40</span>
+                        <p class="footerPara">Hours per week</p>
+                    </div>
+                    <div>
+                        <span class="footerSpan">Unlimited</span>
+                        <p class="footerPara">Paid time off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
